@@ -16,5 +16,5 @@
 /wordpress/wp-content/themes/*
 !/wordpress/wp-content/plugins
 /wordpress/wp-content/plugins/*
-!/wordpress/wp-content/themes/p-box
+!/wordpress/wp-content/themes/XXX-records(ads)
 /**/node_modules

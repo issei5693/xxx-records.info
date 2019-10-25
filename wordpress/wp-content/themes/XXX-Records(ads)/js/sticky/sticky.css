@@ -1,0 +1,33 @@
+.go #g_nav_bg {
+	left: 0 !important;
+	right: 0 !important;
+	z-index:300 !important;
+	background-color: rgba(68,68,68,0.5);
+	box-sizing: border-box;
+	padding: 5px;
+	transition: 0.8s;
+	}
+
+.go li a {
+	color:#fff !important;
+	}
+
+.go li a:hover {
+	color:#444 !important;
+	background-color:#fff !important;
+	}
+
+#g_nav_bg-sticky-wrapper {
+	width: 100% !important;
+	}
+	
+	
+@media (min-width: 0) and (max-width: 414px) { /* --- iPhone6 Plus --- */
+
+.go #g_nav_bg {
+	padding: 0px !important;
+	transition: 0s !important;
+	}
+
+
+}/* ---/Media Queries(max-width: 414px) --- */
